@@ -1,12 +1,11 @@
-import React, { useState } from "react";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import "./App.css";
 
 import Home from "@/views/Home";
 
 export default function App({ callback }) {
   return (
-    <Router basename="/layoutScreenPc">
+    <Router basename="/iotScreenPc">
       <div ref={callback}>
         {/* A <Switch> looks through its children <Route>s and
             renders the first one that matches the current URL. */}

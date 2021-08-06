@@ -1,6 +1,5 @@
 import "./index.scss";
 import TitleAndLogo from "@/component/TitleAndLogo";
-import ShortBox from "@/component/ShortBox";
 import ProductionLineData from "@/component/ProductionLineData";
 import DeviceStatus from "@/component/DeviceStatus";
 import EquipmentOperatingRate from "@/component/EquipmentOperatingRate";
