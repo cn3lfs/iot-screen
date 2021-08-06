@@ -1,0 +1,73 @@
+.production-line {
+  color: #fff;
+  text-align: center;
+
+  .line-data {
+    position: relative;
+    margin: 40px;
+
+    .line-circle-text {
+      position: absolute;
+      width: 100%;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+
+      .line-number {
+        font-size: 38px;
+        color: #ffffff;
+      }
+      .line-text {
+        font-size: 18px;
+        color: #f0f2f5;
+      }
+    }
+  }
+
+  .line-and-device {
+    width: 500px;
+    max-height: 570px;
+    overflow: hidden;
+    margin: 0 auto;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+
+    .line,
+    .device {
+      width: 200px;
+    }
+
+    .line-title,
+    .device-title {
+      font-size: 20px;
+      color: #7ae9e7;
+    }
+
+    .line-list,
+    .device-list {
+      margin-top: 20px;
+    }
+
+    .line-list-item,
+    .device-list-item {
+      margin-bottom: 22px;
+    }
+
+    .line-item-text,
+    .device-item-text {
+      vertical-align: middle;
+      font-size: 20px;
+      color: #cfcfcf;
+      display: inline-block;
+      text-align: left;
+    }
+
+    .line-item-text {
+      width: 60px;
+    }
+    .device-item-text {
+      width: 40px;
+    }
+  }
+}

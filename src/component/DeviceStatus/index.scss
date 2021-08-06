@@ -1,0 +1,130 @@
+.device-status {
+  color: #fff;
+  text-align: center;
+  margin: 20px 40px 40px 40px;
+  height: 830px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  .device-chart {
+    display: flex;
+
+    .device-indicator {
+      height: 150px;
+      display: flex;
+      justify-content: space-around;
+
+      .indicator-item {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        width: 120px;
+        .status-text {
+          font-size: 20px;
+        }
+        .status-number {
+          font-size: 36px;
+          letter-spacing: 0px;
+        }
+        .status-percent {
+          font-size: 20px;
+        }
+      }
+
+      .indicator-item-normal {
+        color: #38c7ff;
+      }
+      .indicator-item-warning {
+        color: #ffe400;
+      }
+      .indicator-item-danger {
+        color: #ff5454;
+      }
+    }
+  }
+
+  .device-diagram {
+    .device-title,
+    .station-title {
+      font-size: 20px;
+      color: #fbe8e0;
+      text-align: left;
+    }
+
+    .device-number {
+      font-size: 38px;
+      color: #00f9ff;
+      width: 70px;
+    }
+    .station-number {
+      font-size: 38px;
+      color: #00c0ff;
+      width: 70px;
+    }
+
+    .device-square,
+    .station-square {
+      margin-top: 10px;
+      margin-left: 10px;
+    }
+
+    .device,
+    .station {
+      display: flex;
+      flex-direction: column;
+
+      .current-device,
+      .current-station {
+        display: flex;
+      }
+    }
+  }
+
+  .device-table {
+    .indicator-item-normal {
+      color: #38c7ff;
+    }
+    .indicator-item-warning {
+      color: #ffe400;
+    }
+    .indicator-item-danger {
+      color: #ff5454;
+    }
+
+    .ant-table-content {
+      table {
+        .ant-table-thead {
+          th {
+            background: rgb(14, 24, 41);
+            color: #7ae9e7;
+            border: 0;
+          }
+        }
+        .ant-table-tbody {
+          color: #fff;
+
+          tr {
+            height: 41px;
+            td {
+              border: 0;
+            }
+
+            transition: margin-top 1s;
+          }
+
+          tr:hover {
+            color: #333;
+          }
+
+          tr:nth-child(odd) {
+            background-color: #162238;
+          }
+          tr:nth-child(even) {
+            background: rgb(14, 24, 41);
+          }
+        }
+      }
+    }
+  }
+}

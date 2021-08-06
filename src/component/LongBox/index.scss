@@ -1,0 +1,24 @@
+.long-box {
+  width: 618px;
+  // height: 950px;
+  position: relative;
+
+  .title {
+    position: absolute;
+    width: 100%;
+    top: 8px;
+    font-size: 26px;
+    line-height: 35px;
+    letter-spacing: 1px;
+    color: #ffffff;
+  }
+
+  .inner-box {
+    // border: 1px solid red;
+    position: absolute;
+    width: 100%;
+    height: 897px;
+    top: 52px;
+    padding: 10px;
+  }
+}
